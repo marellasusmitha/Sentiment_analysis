@@ -1,0 +1,10 @@
+streamlit
+nltk
+numpy
+tweepy
+pandas
+scikit-learn
+matplotlib
+seaborn
+wordcloud
+
