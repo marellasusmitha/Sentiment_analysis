@@ -67,7 +67,7 @@ elif input_method == "Upload a Dataset":
             else:
                 st.warning(f"The selected column '{text_column}' does not contain valid text data.")
 
-       elif input_method == "Fetch Tweets":
+elif input_method == "Fetch Tweets":
     # Inputs for Twitter search
     search_term = st.text_input("Enter hashtag, keyword, or username to fetch tweets:")
     tweet_count = st.number_input("Number of tweets to fetch:", min_value=1, max_value=100, value=10)
